@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+.navbar {
+    padding: 20px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    height: 60vh;
+    background: linear-gradient(to bottom, #ffe7f0, #fff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.product-img {
+    width: 250px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
