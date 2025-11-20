@@ -3,24 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auri Fit</title>
+    <title>Auri Fit - Minimal. Aesthetic. Strong.</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo_small.png">
 </head>
 <body>
     <header class="navbar">
-        <h1 class="logo">AURI FIT</h1>
+        <a href="#home" class="logo-link">
+            <img src="images/logo_small.png" alt="Auri Fit Logo" class="nav-logo">
+        </a>
+        <nav class="nav-links">
+            <a href="#products">Gear</a>
+            <a href="#vibe">Vibe</a>
+            <a href="#connect">Connect</a>
+        </nav>
+        <a href="#" class="nav-cta">Shop Now</a>
     </header>
 
-    <section class="hero">
-        <h2 class="hero-text">Elevate Your Workout</h2>
-        <p class="hero-subtext">Minimal. Aesthetic. Strong.</p>
+    <section class="hero-section" id="home">
+        <div class="hero-text-block">
+            <h1 class="hero-title">Strength, <span class="pink-highlight">Styled.</span></h1>
+            <p class="hero-subtext">Auri Fit designs premium fitness essentials that look as good as they perform. Elevate your gym bag, elevate your workout.</p>
+            <a href="#products" class="scroll-link">Discover Our Collection <span class="arrow">↓</span></a>
+        </div>
+        <div class="hero-image-block">
+            <img src="images/product.png" alt="Auri Fit Ankle Cuffs" class="hero-product-img">
+        </div>
     </section>
 
-    <section class="product">
-        <h3>Our First Product</h3>
-        <img src="images/product.png" class="product-img">
-        <p class="product-desc">Premium fitness products designed for women.</p>
+    <section class="info-section product-showcase" id="products">
+        <div class="container product-grid">
+            <div class="product-info-text">
+                <h2 class="section-title">The Auri Cuffs: Your New Essential.</h2>
+                <p>Say goodbye to bulky, boring gym accessories. Our signature ankle/wrist cuffs are engineered for performance and designed for the aesthetic-minded athlete.</p>
+                <div class="feature-list">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li><span class="bullet-check">✔</span> Signature Auri Pink vegan leather.</li>
+                        <li><span class="bullet-check">✔</span> Ultra-soft neoprene padding for zero discomfort.</li>
+                        <li><span class="bullet-check">✔</span> Heavy-duty, anti-rust stainless steel D-rings.</li>
+                        <li><span class="bullet-check">✔</span> Secure, long-life velcro fastening system.</li>
+                    </ul>
+                </div>
+                <a href="#" class="cta-button">View on Amazon (External)</a>
+            </div>
+            <div class="product-info-visual">
+                <img src="images/product.png" alt="Auri Fit Product Close-up" class="product-detailed-img">
+            </div>
+        </div>
+    </section>
+    
+    <section class="vibe-section" id="vibe">
+        <div class="vibe-container">
+            <h2 class="vibe-quote">Minimal. Aesthetic. <span class="pink-stroke">Strong.</span></h2>
+            <p class="vibe-subtitle">The Auri Fit Philosophy. We're here to make strength beautiful.</p>
+        </div>
     </section>
 
+    <footer class="connect-section" id="connect">
+        <div class="container footer-content">
+            <div class="footer-block">
+                <h4>Explore</h4>
+                <a href="#products">Our Gear</a>
+                <a href="#vibe">The Vibe</a>
+                <a href="#">FAQ (Coming Soon)</a>
+            </div>
+            <div class="footer-block">
+                <h4>Socials</h4>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Pinterest</a>
+                <a href="#" class="social-link">TikTok</a>
+            </div>
+            <div class="footer-block newsletter">
+                <h4>Stay Updated</h4>
+                <p>Join our mailing list for drops and exclusive content.</p>
+                <input type="email" placeholder="Email Address" class="email-input">
+                <button class="submit-btn">Subscribe</button>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Auri Fit. Designed for women, built for strength.</p>
+    </footer>
 </body>
 </html>
